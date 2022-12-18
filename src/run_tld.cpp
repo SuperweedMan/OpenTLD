@@ -141,7 +141,8 @@ GETBOUNDINGBOX:
     else
       first.copyTo(frame);
     cvtColor(frame, last_gray, CV_RGB2GRAY);
-    drawBox(frame,box);
+    CvRect cv_box{box.x, box.y, box.width, box.height};
+    drawBox(frame, {box.x, box.y, box.width, box.height});
     imshow("TLD", frame);
     if (cvWaitKey(33) == 'q')
 	    return 0;
@@ -177,7 +178,8 @@ REPEAT:
     if (status){
       drawPoints(frame,pts1);
       drawPoints(frame,pts2,Scalar(0,255,0));
-      drawBox(frame,pbox);
+      CvRect cv_pbox{pbox.x, pbox.y, pbox.width, pbox.height};
+      drawBox(frame, cv_pbox);
       detections++;
     }
     //Display

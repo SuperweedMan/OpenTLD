@@ -3,6 +3,7 @@
 #include <LKTracker.h>
 #include <FerNNClassifier.h>
 #include <fstream>
+#include <patchgenerator.h>
 
 
 //Bounding Boxes
