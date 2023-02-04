@@ -11,7 +11,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 #OpenCV
 IF (CMAKE_SYSTEM_NAME MATCHES "Linux") 
     MESSAGE(STATUS "current platform: Linux ") 
-    set(OpenCV_DIR ${PROJECT_SOURCE_DIR}/../../opencv/build/linux)
+    set(OpenCV_DIR ${PROJECT_SOURCE_DIR}/../../opencv/build/ubuntu)
 ELSEIF (CMAKE_SYSTEM_NAME MATCHES "Windows") 
     MESSAGE(STATUS "current platform: Windows") 
 ELSEIF (CMAKE_SYSTEM_NAME MATCHES "Darwin") 
