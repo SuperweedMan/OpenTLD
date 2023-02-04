@@ -1,0 +1,2 @@
+/usr/bin/ar qc libferNN.a  CMakeFiles/ferNN.dir/FerNNClassifier.o
+/usr/bin/ranlib libferNN.a

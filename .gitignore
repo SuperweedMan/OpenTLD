@@ -46,7 +46,6 @@ CVS/
 *.d
 
 # XCode specific files
-build/
 *.mode1v3
 *.pbxuser
 *.perspectivev3

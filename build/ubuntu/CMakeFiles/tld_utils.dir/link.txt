@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtld_utils.a  CMakeFiles/tld_utils.dir/tld_utils.o
+/usr/bin/ranlib libtld_utils.a

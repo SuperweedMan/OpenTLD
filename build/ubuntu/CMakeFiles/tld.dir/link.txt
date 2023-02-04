@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtld.a  CMakeFiles/tld.dir/TLD.o CMakeFiles/tld.dir/patchgenerator.o
+/usr/bin/ranlib libtld.a
